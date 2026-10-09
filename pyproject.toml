@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "meu-backend"
+version = "0.1.0"
+description = ""
+authors = ["Lucas"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["standard"], version = "^0.141.1"}
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
